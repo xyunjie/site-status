@@ -21,13 +21,13 @@ const Footer = () => {
         <CustomLink iconDom={<Mail />} to={`mailto:${emailUrl}`} />
       </div>
       <div className="text">
-        <p>
-          <CustomLink
-            text={Package.alia}
-            to="https://github.com/imsyy/site-status"
-          />
-          &nbsp;Version&nbsp;{Package.version}
-        </p>
+        {/*<p>*/}
+        {/*  <CustomLink*/}
+        {/*    text={Package.alia}*/}
+        {/*    to="https://github.com/imsyy/site-status"*/}
+        {/*  />*/}
+        {/*  &nbsp;Version&nbsp;{Package.version}*/}
+        {/*</p>*/}
         <p>
           基于&nbsp;
           <CustomLink to="https://uptimerobot.com/" text="UptimeRobot" />
@@ -36,7 +36,7 @@ const Footer = () => {
         <p>
           Copyright&nbsp;&copy;&nbsp;2020&nbsp;-&nbsp;{new Date().getFullYear()}
           &nbsp;
-          <CustomLink to="https://www.imsyy.top/" text="無名" />
+          <CustomLink to="https://www.tihangstudio.cn/" text="梯航工作室" />
           {siteIcp ? (
             <React.Fragment>
               &nbsp;|&nbsp;
